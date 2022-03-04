@@ -5,7 +5,7 @@ branch-defaults:
 global:
   application_name: backend
   branch: null
-  default_ec2_keyname: aws-eb
+  default_ec2_keyname: vockey
   default_platform: Node.js 16 running on 64bit Amazon Linux 2
   default_region: us-east-1
   include_git_submodules: true
