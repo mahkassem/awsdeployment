@@ -2,17 +2,17 @@
     "name": "deployment-backend",
     "version": "1.0.0",
     "description": "",
-    "main": "app.js",
+    "main": "www/app.js",
     "scripts": {
-        "start": "node app.js",
+        "start": "node .",
         "dev": "nodemon src/app.ts --watch",
         "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
         "clean": "rmdir /Q /S www",
         "copy:scripts": "@powershell copy ./package.json ./www/package.json && @powershell copy ./.npmrc ./www/.npmrc",
-        "build": "npm run clean && npx tsc && npm run copy:scripts && cd www && tar.exe -a -c -f Archive.zip * && cd ..",
+        "build": "npx tsc",
         "db:up": "db-migrate up",
         "db:down": "db-migrate reset",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\""
     },
     "keywords": [
         "nodejs",

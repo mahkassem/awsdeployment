@@ -12,7 +12,7 @@
                 "s3:GetObject"
             ],
             "Resource": [
-                "arn:aws:s3:::replace_with_bucket_name/*"
+                "arn:aws:s3:::udacity-mk-ci-cd/*"
             ]
         }
     ]

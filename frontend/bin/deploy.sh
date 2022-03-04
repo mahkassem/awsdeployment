@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./www s3://udacity-mk/
+aws s3 cp --recursive --acl public-read ./www s3://udacity-mk-ci-cd/
