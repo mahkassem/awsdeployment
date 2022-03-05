@@ -1,12 +1,8 @@
 {
-    "name": "frontend",
-    "version": "1.0.0",
-    "description": "",
     "scripts": {
-        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
-        "build": "echo \"Error: nothing build\"",
-        "test": "echo \"Error: no test specified\""
-    },
-    "author": "Mahmoud Kassem",
-    "license": "ISC"
+        "install": "echo \"Error: there is nothing to install\"",
+        "build": "echo \"Error: there is nothing to build\"",
+        "test": "echo \"Error: there is nothing to test\"",
+        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
+    }
 }
