@@ -30,3 +30,7 @@ jobs:
       - run:
           name: Deploy Back-end
           command: npm run deploy:backend
+workflows:
+  build-deploy:
+    jobs:
+      - build
