@@ -33,4 +33,8 @@ jobs:
 workflows:
   build-deploy:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only:
+                - cicd          
