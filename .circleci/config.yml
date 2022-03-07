@@ -6,35 +6,33 @@ orbs:
 jobs:
   build:
     docker:
-     - image: cimg/base:stable
+      - image: cimg/base:stable
     steps:
       - node/install
       - checkout
       - aws-cli/install
       - eb/setup
       - run:
-          name: Install Front-End
-          command: npm run install:frontend
-      - run:
-          name: Install Back-end
+          name: Install Backend
           command: npm run install:backend
       - run:
-          name: Build Front-End
-          command: npm run build:frontend
+          name: Install Frontend
+          command: npm run install:frontend
       - run:
-          name: Build Back-end
+          name: Build Backend
           command: npm run build:backend
       - run:
-          name: Deploy Front-End
-          command: npm run deploy:frontend
+          name: Build Frontend
+          command: npm run build:frontend
       - run:
-          name: Deploy Back-end
+          name: Test Backend
+          command: npm run test:backend
+      - run:
+          name: Test Frontend
+          command: npm run test:frontend
+      - run:
+          name: Deploy Backend
           command: npm run deploy:backend
-workflows:
-  build-deploy:
-    jobs:
-      - build:
-          filters:
-            branches:
-              only:
-                - cicd          
+      - run:
+          name: Deploy Frontend
+          command: npm run deploy:frontend

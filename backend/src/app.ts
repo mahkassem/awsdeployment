@@ -7,7 +7,7 @@ import db from './database'
 dotenv.config()
 
 const app: Application = express() // create an express application
-const port = process.env.PORT || 80 // set the port
+const port = process.env.PORT || 8080 // set the port
 
 // Defaul middlewares
 app.use(
