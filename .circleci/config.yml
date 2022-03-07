@@ -36,3 +36,11 @@ jobs:
       - run:
           name: Deploy Frontend
           command: npm run deploy:frontend
+workflows:
+  build-deploy:
+    jobs:
+        - build:
+            filters:
+              branches:
+                only:
+                    - main
