@@ -7,6 +7,7 @@
         "frontend:deploy": "cd frontend && npm run deploy",
         "backend:deploy": "cd backend && npm run deploy",
         "frontend:test": "cd frontend && npm run test",
-        "backend:test": "cd backend && npm run test"
+        "backend:test": "cd backend && npm run test",
+        "aa": ""
     }
 }
