@@ -2,6 +2,7 @@
     "scripts": {
         "install": "echo \"Error: there is nothing to install\"",
         "build": "echo \"Error: there is nothing to build\"",
-        "test": "echo \"Error: there is nothing to test\""
+        "test": "echo \"Error: there is nothing to test\"",
+        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
     }
 }
