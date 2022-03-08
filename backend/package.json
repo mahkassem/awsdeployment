@@ -9,7 +9,6 @@
         "clean": "rmdir /Q /S www",
         "copy:scripts": "@powershell copy ./package.json ./www/package.json && @powershell copy ./.npmrc ./www/.npmrc",
         "build": "npx tsc",
-        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
         "db:up": "db-migrate up",
         "db:down": "db-migrate reset",
         "test": "echo \"Error: no test specified\""
