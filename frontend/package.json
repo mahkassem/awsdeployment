@@ -1,8 +1,10 @@
 {
     "scripts": {
-        "install": "echo \"Error: there is nothing to install\"",
-        "build": "echo \"Error: there is nothing to build\"",
-        "test": "echo \"Error: there is nothing to test\"",
-        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
-    }
+        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
+        "build": "echo \"Error: nothing build\"",
+        "dev": "http-server ./www -o",
+        "test": "echo \"Error: no test specified\""
+    },
+    "author": "Mahmoud Kassem",
+    "license": "ISC"
 }

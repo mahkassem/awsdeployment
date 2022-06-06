@@ -1,5 +1,5 @@
 ### AWS S3 Bucket Policy 
-
+[![CircleCI](https://circleci.com/gh/mahkassem/awsdeployment/tree/main.svg?style=svg)](https://circleci.com/gh/mahkassem/awsdeployment/tree/main)
 ```json
 {
     "Version": "2012-10-17",

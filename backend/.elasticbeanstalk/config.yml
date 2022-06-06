@@ -1,18 +1,18 @@
 branch-defaults:
   default:
-    environment: backend-env
+    environment: Quotes-env
     group_suffix: null
 global:
-  application_name: backend
+  application_name: Quotes
   branch: null
-  default_ec2_keyname: aws-eb
+  default_ec2_keyname: aws-eb2
   default_platform: Node.js 16 running on 64bit Amazon Linux 2
   default_region: us-east-1
   include_git_submodules: true
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: null
+  profile: default
   repository: null
   sc: null
   workspace_type: Application

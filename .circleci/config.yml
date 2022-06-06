@@ -31,10 +31,10 @@ jobs:
           name: Deploy Back-end
           command: npm run deploy:backend
 workflows:
-  build-deploy:
-    jobs:
-      - build:
-          filters:
-            branches:
-              only:
-                - cicd          
+    build-deploy:
+      jobs:
+        - build:
+            filters:
+              branches:
+                only: 
+                  - main

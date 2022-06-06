@@ -27,3 +27,9 @@ VALUES (
         'In short, software is eating the world.',
         'Marc Andreessen'
     );
+    
+INSERT INTO quotes (text, author)
+VALUES (
+        'The best way to get a project done is to start with the least amount of people possible.',
+        'Steve Jobs'
+    );
