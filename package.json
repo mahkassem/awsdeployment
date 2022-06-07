@@ -1,12 +1,12 @@
 {
     "scripts": {
-        "frontend:install": "cd frontend && npm install",
-        "backend:install": "cd backend && npm install",
-        "frontend:build": "cd frontend && npm run build",
-        "backend:build": "cd backend && npm run build",
-        "frontend:deploy": "cd frontend && npm run deploy",
-        "backend:deploy": "cd backend && npm run deploy",
-        "frontend:test": "cd frontend && npm run test",
-        "backend:test": "cd backend && npm run test"
+        "install:frontend": "cd frontend && npm install",
+        "install:backend": "cd backend && npm install",
+        "build:frontend": "cd frontend && npm run build",
+        "build:backend": "cd backend && npm run build",
+        "deploy:frontend": "cd frontend && npm run deploy",
+        "deploy:backend": "cd backend && npm run deploy",
+        "test:frontend": "cd frontend && npm run test",
+        "test:backend": "cd backend && npm run test"
     }
 }

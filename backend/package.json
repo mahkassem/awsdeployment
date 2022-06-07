@@ -6,9 +6,9 @@
     "scripts": {
         "start": "node .",
         "dev": "nodemon src/app.ts --watch",
-        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
         "clean": "rmdir /Q /S www",
         "copy:scripts": "@powershell copy ./package.json ./www/package.json && @powershell copy ./.npmrc ./www/.npmrc",
+        "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
         "build": "npx tsc",
         "db:up": "db-migrate up",
         "db:down": "db-migrate reset",

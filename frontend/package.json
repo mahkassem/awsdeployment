@@ -1,7 +1,4 @@
 {
-    "name": "frontend",
-    "version": "1.0.0",
-    "description": "",
     "scripts": {
         "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
         "build": "echo \"Error: nothing build\"",
