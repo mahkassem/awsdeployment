@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/quotes', async (req, res) => {
-    const quotes = await db.query('SELECT text, author FROM quotes');
+    const quotes = await db.query('SELECT text, author, active FROM quotes');
     res.send(quotes.rows).status(200)
 });
 

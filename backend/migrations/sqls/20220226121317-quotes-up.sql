@@ -1,7 +1,8 @@
 CREATE TABLE quotes (
     id SERIAL PRIMARY KEY,
     text TEXT NOT NULL,
-    author VARCHAR
+    author VARCHAR,
+    active BOOLEAN NOT NULL DEFAULT false
 );
 
 INSERT INTO quotes (text, author)

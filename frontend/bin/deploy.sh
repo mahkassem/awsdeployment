@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./www s3://quotesapp06/
+aws s3 cp --recursive --acl public-read ./www s3://quotesapp03/
