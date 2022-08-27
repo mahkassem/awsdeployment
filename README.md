@@ -1,8 +1,7 @@
 ### AWS S3 Bucket Policy 
-[![CircleCI](https://circleci.com/gh/mahkassem/awsdeployment/tree/main.svg?style=svg)](https://circleci.com/gh/mahkassem/awsdeployment/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mahkassem/awsdeployment/tree/cicd.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mahkassem/awsdeployment/tree/cicd)
 
 [![CircleCI](https://dl.circleci.com/insights-snapshot/gh/mahkassem/awsdeployment/main/build-deploy/badge.svg?window=30d)](https://app.circleci.com/insights/github/mahkassem/awsdeployment/workflows/build-deploy/overview?branch=main&reporting-window=last-30-days&insights-snapshot=true)
-
 ```json
 {
     "Version": "2012-10-17",
