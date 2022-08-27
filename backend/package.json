@@ -9,7 +9,7 @@
         "clean": "rmdir /Q /S www",
         "copy:scripts": "@powershell copy ./package.json ./www/package.json && @powershell copy ./.npmrc ./www/.npmrc",
         "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh",
-        "build": "rm -r ./www && npx tsc && cd www && cp ../package.json ./ && zip -r app.zip ./* && ../",
+        "build": "rm -rf ./www && npx tsc && cd www && cp ../package.json ./ && zip -r app.zip ./* && ../",
         "db:up": "db-migrate up",
         "db:down": "db-migrate reset",
         "test": "echo \"Error: no test specified\""
